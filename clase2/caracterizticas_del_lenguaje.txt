@@ -1,0 +1,16 @@
+Tipos de datos Python
+
+1) Enteros (Por ej. 5)  (int)
+2) Cadenas (texto, por ej. "hola mundo") (str)
+3) Numeros de coma flotante (nros racionales, por ej. 3.14) (float)
+4) Booleanos (valores logicos: verdadero / falso) (bool)
+
+
+Comparaciones
+
+- Mayor (>)
+- Mayor igual (>=)
+- Menor (<)
+- Menor igual (<=)
+- Igualdad ( == )
+- Desigualdad ( != )
