@@ -7,7 +7,11 @@ alumnos = []
 
 # ~ Como deberia quedar la informacion en la lista
 
-# ~ alumnos = [["Juan", 4],["Ana", 6],["Jose", 5]]
+alumnos = [["Juan", 4],["Ana", 6],["Jose", 5]]
+
+#alumnos = ["juan", 8, "ana", 3, "luis", 10]
+
+matriz = [[], [], []]
 
 # Pablo - 3 cursos
 
@@ -25,9 +29,9 @@ while True:
 	if opcion == 1:
 		if len(alumnos) > 0:
 			print("Lista de alumnos:")
-			for al in alumnos:
-				nombre = al[0]
-				cursos = al[1]
+			for i in alumnos:
+				nombre = i[0]
+				cursos = i[1]
 				print(nombre + " - " + str(cursos) + " cursos")
 				#print(al[0] + " - " + str(al[1]) + " cursos")
 		else:
